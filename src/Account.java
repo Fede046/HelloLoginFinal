@@ -45,7 +45,7 @@ public class Account {
    
     public ArrayList<String> listaUtenti(){
         ArrayList<String> listaU = new ArrayList<>();
-        //C:\\Users\\malse\\IdeaProjects\\HelloLogin\\src\\dati.txt"
+       
         try{
             Scanner scanner = new Scanner(new File("src/dati.txt"));
             while(scanner.hasNextLine()){
